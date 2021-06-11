@@ -1,0 +1,11 @@
+server:
+  port: 8000
+  servleet:
+  servlet:
+    context-path:  /api-xana-customer/v1
+  compression:
+    enabled: true
+  tomcat:
+    uri-encoding: utf-8
+  error:
+    include-stacktrace: never
