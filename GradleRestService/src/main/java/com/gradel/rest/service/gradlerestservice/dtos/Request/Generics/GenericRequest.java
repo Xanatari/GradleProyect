@@ -1,6 +1,7 @@
 package com.gradel.rest.service.gradlerestservice.dtos.Request.Generics;
 
 import lombok.*;
+import org.springframework.lang.Nullable;
 
 @Builder
 @Setter
@@ -13,5 +14,5 @@ public class GenericRequest {
     private String customerLastName;
     private String customerPhoneNumber;
     private String customerEmail;
-    private Object genericData;
+    private @Nullable Object genericData;
 }
